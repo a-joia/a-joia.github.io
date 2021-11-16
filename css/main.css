@@ -1086,7 +1086,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 header {
 	position: fixed;
 	width: 100%;
-	min-height: 66px;
+	min-height: 650px;
 	z-index: 600;
 }
 header .row {
@@ -1095,16 +1095,15 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
-	min-width: 220px;
+	width: 30%;
 	min-height: 66px;
 	position: absolute;
-	left: 90px;
+	left: 0px;
 	top: 0;
 }
 header .logo {
 	float: left;
-	margin-left: 20px;
+	margin-left: 0px;
 	margin-right: 50px;
 	margin-top: 25px;
 	position: relative;
@@ -1267,22 +1266,22 @@ header .logo a {
  */
 @media only screen and (max-width:1024px) {
 	header .top-bar {
-		left: 60px;
+		left: 0px;
 	}
 }
 @media only screen and (max-width:768px) {
 	header .top-bar {
-		left: 50px;
+		left: 0px;
 	}
 }
 @media only screen and (max-width:600px) {
 	header .top-bar {
-		left: 35px;
+		left: 0px;
 	}
 }
 @media only screen and (max-width:400px) {
 	header .top-bar {
-		left: 25px;
+		left: 0px;
 	}
 }
 
@@ -1300,8 +1299,8 @@ header .logo a {
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
-	height: 100%;
-	min-height: 720px;
+	height: 25%;
+	min-height: 300 px;
 	display: table;
 	position: relative;
 	text-align: center;
@@ -1491,20 +1490,21 @@ header .logo a {
  */
 #about {
 	background: #FFFFFF;
-	padding-top: 12rem;
-	padding-bottom: 15rem;
+	padding-top: 5rem;
+	padding-bottom: 3rem;
 }
 #about .section-intro {
 	margin-bottom: 3rem;
 }
 
+
 .intro-info {
 	margin-top: 4.2rem;
 	margin-right: -30px;
-	margin-left: -30px;
+	margin-left: 0px;
 }
 .intro-info img {
-	height: 9rem;
+	height: 11.5rem;
 	width: 9rem;
 	border-radius: 50%;
 	margin: .9rem 0 0 0;
@@ -1531,6 +1531,12 @@ header .logo a {
 	list-style: none;
 	margin-left: 0;
 }
+
+.about-content .info-photo {
+	list-style: none;
+	margin-left: 1000;
+}
+
 .about-content .info-list li {
 	padding: 0 0 1.5rem 0;
 	margin-bottom: .6rem;
