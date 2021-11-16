@@ -1319,6 +1319,7 @@ header .logo a {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
+	margin-top: 1rem;
 	-webkit-transform: translateY(-2.1rem);
 	-ms-transform: translateY(-2.1rem);
 	transform: translateY(-2.1rem);
