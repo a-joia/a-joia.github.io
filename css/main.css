@@ -1506,9 +1506,9 @@ header .logo a {
 	margin-left: 0px;
 }
 .intro-info img {
-	height: 11.5rem;
-	width: 9rem;
-	border-radius: 50%;
+	height: 16rem;
+	width: 12rem;
+	border-radius: 0%;
 	margin: .9rem 0 0 0;
 	float: left;
 }
