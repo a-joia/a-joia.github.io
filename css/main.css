@@ -1556,7 +1556,7 @@ header .logo a {
 	font-family: "poppins-regular", sans-serif;
 	color: #888888;
 	font-size: 1.5rem;
-	line-height: 1;
+	line-height: 1.5rem;
 }
 .about-content .skill-bars {
 	margin-top: 6rem;
@@ -1593,6 +1593,9 @@ header .logo a {
 	}
 	.about-content h3 {
 		text-align: center;
+	}
+	.about-content li {
+		line-height: 1.5rem;
 	}
 	.about-content .info-list, .about-content .skill-bars {
 		margin-bottom: 4.2rem;
